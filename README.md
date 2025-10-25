@@ -29,3 +29,6 @@ python3をインストールしている環境で、以下のように実行し�
 
 ## Note
 今のところ、Windowsのpython3でのみ動作確認しています。
+
+## License
+This software is released under the MIT License, see LICENSE.

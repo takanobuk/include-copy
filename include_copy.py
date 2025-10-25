@@ -1,3 +1,16 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+# include_copy.py
+# HTMLファイル内の特定のコメントを処理し、ファイルをコピー
+# <-- @include-file="ファイルパス" --> コメントを指定されたファイルの内容で置換
+# <-- @date --> コメントを現在の日付（YYYYMMDDHHMM形式）で置換 
+#
+# 使い方: python include_copy.py <入力フォルダ> <出力フォルダ>
+#
+# Copyright(c) 2025 takanobuk
+#
+
 import os
 import shutil
 import re
