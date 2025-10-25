@@ -8,7 +8,7 @@ GitHub Copilotに手伝ってもらいました。
 
 ## Features
 .htmlファイルのインクルードしたい箇所に以下の様に記述し、include-copy.pyを実行することで<br>
-指定した外部ファイルをインクルードして、指定フォルダーに出力します。
+指定した外部ファイルをインクルードして、指定フォルダーに出力します。<br>
 `<!-- @include-file="../include/menu.html"-->`
 
 その他、インクルード指定が無いファイルや、画像ファイル、cssファイル、jsファイルはそのままコピーします。<br>
@@ -16,16 +16,16 @@ GitHub Copilotに手伝ってもらいました。
 ## How do I run this?
 python3をインストールしている環境で、以下のように実行してください。<br>
 例: 以下のフォルダ構成で実行する場合<br>
-　your-project/<br>
-    include_copy.py<br>
-    source/<br>
-        index.html<br>
-        *.html<br>
-    include/<br>
-        menu.html<br>
-    www/<br>
-　<br>
-  python include_copy.py ./source ./www<br>
+    your-project/<br>
+        include_copy.py<br>
+        source/<br>
+            index.html<br>
+            *.html<br>
+        include/<br>
+            menu.html<br>
+        www/<br>
+<br>
+    python include_copy.py ./source ./www<br>
 
 ## Note
 今のところ、Windowsのpython3でのみ動作確認しています。
