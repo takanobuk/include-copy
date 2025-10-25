@@ -2,6 +2,7 @@
 include-copyはwebページを作成時にメニューやヘッダーなどを外部からincludeするシンプルなツールです。
 python3で開発しました。
 簡易的なWebページ作成に活用できると思います。
+GitHub Copilotに手伝ってもらいました。
 
 ## Features
 .htmlファイルのインクルードしたい箇所に以下の様に記述し、include-copy.pyを実行することで
@@ -26,3 +27,5 @@ python3をインストールしている環境で、以下のように実行し�
 
 ## Note
 今のところ、Windowsのpython3でのみ動作確認しています。
+
+## ライセンス
